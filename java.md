@@ -263,12 +263,12 @@ Jsou seřazeny podle tématu.
 1. [Multithreading](#Multithreading)
 2. [Třídy](#Třídy)
 3. [Interfacy](#Interfacy)
-4. [Lambda_výrazy](#Lambda_výrazy)
-5. [Hodnoty_proměnných](#Hodnoty_proměnných)
+4. [Lambda výrazy](#Lambda_výrazy)
+5. [Hodnoty proměnných](#Hodnoty_proměnných)
 6. [Triky](#Triky)
-7. [Základní_znalosti](#Základní_znalosti)
+7. [Základní znalosti](#Základní_znalosti)
 8. [Výjimky](#Výjimky)
-9. [Jednoduché_úkoly_na_psaní_kódu](#Jednoduché_úkoly_na_psaní_kódu)
+9. [Jednoduché úkoly na psaní kódu](#Jednoduché_úkoly_na_psaní_kódu)
 
 
 
@@ -366,7 +366,7 @@ Metody `get` a `put` by obě měly být `synchronized`, zbytek je jednoduchý.
 
 ### Třídy
 
-Zpět na [Zkouškové_úlohy](#Zkouškové_úlohy).
+Zpět na [Zkouškové úlohy](#Zkouškové_úlohy).
 
 **1. Upravte následující kód tak, aby se zkompiloval:**
 
@@ -622,7 +622,7 @@ enum Answer {
 
 ### Interfacy
 
-Zpět na [Zkouškové_úlohy](#Zkouškové_úlohy).
+Zpět na [Zkouškové úlohy](#Zkouškové_úlohy).
 
 **1. Co platí o rozhraních (*interface*):** 
 
@@ -717,7 +717,7 @@ class B extends A implements Iface {
 
 ### Lambda_výrazy
 
-Zpět na [Zkouškové_úlohy](#Zkouškové_úlohy).
+Zpět na [Zkouškové úlohy](#Zkouškové_úlohy).
 
 **1. Máme definované `Callable`, `Supplier` a `Predicate`. Která z následujících přiřazení lamda výrazu jsou správná (kompilátor je přeloží):**
 
@@ -814,7 +814,7 @@ public class A {
 
 ### Hodnoty_proměnných
 
-Zpět na [Zkouškové_úlohy](#Zkouškové_úlohy). Viz [Literály](#Literály).
+Zpět na [Zkouškové úlohy](#Zkouškové_úlohy). Viz [Literály](#Literály).
 
 **1. Atribut (= field, pozn. Evžena) typu `int` bez explicitní inicializace:**
 
