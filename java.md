@@ -921,7 +921,7 @@ public class A {
 2. Hello world
 3. nic
 
-*Odpověď*: [2] 
+*Odpověď*: [1] 
 
 **9. Co se vypíše?**
 
