@@ -669,8 +669,8 @@ public interface A {
 
 /* soubor B.java */ 
 public class B implements A { 
-	public void foo( int i) { 
-		System.out.println( i); 
+  public void foo( int i) { 
+    System.out.println( i); 
 	}
   public void bar() { 
     System.out.println("Hello"); 
