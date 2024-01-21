@@ -957,7 +957,6 @@ while (i <= j && j <= i && i != j) {} // 3.
 *Odpovědi:*
 
 1. `i = Double.NaN`, protože `NaN` se nerovná ničemu.
-
 2. `i = ""`, stringy lze sčítat s čísly, číslo se převede na string
 3. `i = new Integer(1)` a `j = new Integer(1)`, jejich porovnání poté porovnává reference
 
