@@ -42,7 +42,7 @@ Používá se i při tvoření anonymních vnitřních tříd v metodách, objek
 
 ```java	
 public interface MyIface {
-   int value();
+	int value();
  }
 
 public class MyClass {
@@ -51,7 +51,7 @@ public class MyClass {
 			private int i = val;
 			public int value() { return i; }
 		};
-  }
+	}
 }
 ```
 
