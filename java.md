@@ -1289,7 +1289,7 @@ public class TaxCalculator{
 	/* MyException je přímý potomek java.lang.Exception => je třeba deklarovat: */
   public double calculateTax(int gross, int taxPercentage) throws MyException{
     if( gross < 0 || taxPercentage < 0 || taxPercentage > 100 )
-      throw new MyException();
+	throw new MyException();
     /* Pro FP aritmetiku je třeba buď přetypovat nebo použít FP konstantu (tady 100.0): */
     return gross * (taxPercentage/100.0);
   }
@@ -1309,7 +1309,7 @@ public class DynamicArray{
      * kterou nemá smysl zachytávat jen, abychom ji opět vyhodili.
      * Jedná se o runtime exception, takže se ani nedeklaruje v hlavičce.
      */
-    return intArray[i];
+	return intArray[i];
   }
   public  void  add(int x){
     /*
@@ -1319,13 +1319,13 @@ public class DynamicArray{
      * - java.util.Arrays.copyOf(),
      * ale to bych asi u zkoušky nedělal, neb si nepamatuju pořadí parametrů.
      */
-    int[]  intArrayX  = new int[intArray.length + 1];  // (zvýšení jen o 1 je na implementaci nejjednodušší)
-    int    i          = 0;
-    for(int a : intArray)
-      intArrayX[i++]  = a;
-    intArrayX[i]      = x;
-    intArray          = intArrayX;
-  }
+	int[] intArrayX = new int[intArray.length + 1];  // (zvýšení jen o 1 je na implementaci nejjednodušší)
+	int i = 0;
+	for(int a : intArray) {
+		intArrayX[i++] = a;
+		intArrayX[i] = x;
+		intArray = intArrayX;
+	}
 }
 ```
 
@@ -1403,7 +1403,7 @@ public static int count(Person[] array, int year, String name) {
 ```java
 class Complex { 
 	int re; 
-    int im; 
+	int im; 
 }
 ```
 
@@ -1418,8 +1418,8 @@ class Complex {
 		if (other instanceof Complex) {
 			Complex that = (Complex) other; 
 			return this.re == that.re && this.im == that.im; 
-    	} 
-    	return false; 
+    		} 
+    		return false; 
 	}
 }
 ```
