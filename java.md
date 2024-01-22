@@ -491,10 +491,10 @@ public class B extends A {
 } 
 
 public class Main {
-	public static void main(String[] args){
-		A a = new B();
-		a.foo();
-	}
+  public static void main(String[] args){
+	A a = new B();
+	a.foo();
+  }
 }
 ```
 
@@ -547,12 +547,12 @@ class MyClass{
 	}
 
   public static void main(String[] args) {
-		MyClass[] my = new MyClass[5];
-		for(int i = 0; i < 5; i++){
-			my[i] = new MyClass();
-		}
-		System.out.println(i);
+	MyClass[] my = new MyClass[5];
+	for(int i = 0; i < 5; i++){
+		my[i] = new MyClass();
 	}
+	System.out.println(i);
+  }
 }
 ```
 
@@ -671,10 +671,10 @@ public interface A {
 public class B implements A { 
   public void foo( int i) { 
     System.out.println( i); 
-	}
+  }
   public void bar() { 
     System.out.println("Hello"); 
-	} 
+  } 
 } 
 ```
 
